@@ -1,0 +1,17 @@
+/* Style all p tags. this is to learn the use of comments */
+
+h1 {
+    color: greenyellow;
+    text-decoration: underline;
+    text-transform:uppercase
+}
+    
+
+p {font-size: 14px; 
+    color: grey;
+
+}
+
+a {text-decorat: underline; 
+color: rgb(64, 81, 38);
+}

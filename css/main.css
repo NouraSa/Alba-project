@@ -1,20 +1,58 @@
 /* Style all p tags. this is to learn the use of comments */
 
-h1 {
-    text-align: initial;
-    text-transform: uppercase;
-    font-family: calibri;
-    font-size: 24px;
-    padding: 25px;
-    background-color: rgb(149, 189, 180);
+
+.header {
+    border: 2px solid transparent;
+    border-radius: 7px;
+    position: relative;
+    line-height: 10px;
     color: lavenderblush;
+    font-family: helvetica;
+    background-color: #E9967A;
+    scroll-padding-top: 100px;
+    display: block;
+    margin-bottom: 5px;
+    padding-left: 35px;
     }
+
+.header p {
+    color: lavenderblush;
+    font-style: italic;
+    }
+
+.header button {
+    float: right;
+    position: relative;
+    margin-top: 28px;
+    margin-right: 100px;
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(149, 189, 180);
+    border: none transparent;
+    border-radius: 40px;
+    height: 30px;
+    width: 150px;
+    }
+.header button:hover {
+    background-color: lavenderblush;
+    }
+
+.header button a:hover {
+    color:#E9967A;
+}   
+.header button a{
+    color: lavenderblush;
+    font-style: normal;
+    text-decoration: none;
+}
 
 .intro {
     padding: 20px;
     background:rgb(149, 189, 180);
     margin:0 auto;
     line-height: 29px;
+    border-radius: 7px;
     }
 
 img {
@@ -36,6 +74,7 @@ p   {
     margin: 1%;
     padding: 1%;
     text-align: center;
+    border-radius: 7px;
     }
 
 h2 {
